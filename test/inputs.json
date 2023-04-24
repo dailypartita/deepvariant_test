@@ -1,0 +1,16 @@
+{
+	"deepvariant.sample_id": "Test_001",
+	"deepvariant.aligned_bams": [
+		{
+		"data": "~/work/PacBio/deepvariant/input/HG003.GRCh38.chr20.pFDA_truthv2.bam",
+		"data_index": "~/work/PacBio/deepvariant/input/HG003.GRCh38.chr20.pFDA_truthv2.bam.bai"
+		}
+	],
+	"deepvariant.reference_fasta": {
+		"data": "~/work/PacBio/deepvariant/reference/GRCh38_no_alt_analysis_set.fasta",
+		"data_index": "~/work/PacBio/deepvariant/reference/GRCh38_no_alt_analysis_set.fasta.fai"
+	},
+	"deepvariant.reference_name": "GRCh38_no_alt_analysis_set",
+	"deepvariant.deepvariant_version": "latest",
+	"deepvariant.deepvariant_model": "WomCompositeType {\n model -> WomCompositeType {\n data -> File\ndata_index -> File \n}\nmetadata -> File \n}? (optional)"
+}
